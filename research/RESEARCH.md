@@ -41,3 +41,7 @@ The user authorized a public GitHub repository and GitHub Pages feedback preview
 ## Verification
 
 See validation.json. JavaScript syntax, all generated routes, local references, fragments, alt attributes, and HTTP page responses were checked. Browser interaction/visual testing was not performed. The local preview was opened in Codex for user review.
+
+## September 21 finish
+
+At the user’s request, removed the design-preview banner and unfinished-site language from the public pages. Added original walnut-grain artwork, warm metal accents, refined responsive spacing, photo frames, and a shared finish stylesheet. Credits retain image provenance, including AI-assisted artwork, without presenting the website as a prototype. Public presentation does not establish authorization from Frank or grant photography reuse permissions. The original research history above is retained for reference.

@@ -23,7 +23,7 @@ publishGit(['add', '--all']);
 if (!publishGit(['diff', '--cached', '--name-only'])) {
   console.log('The published files are already up to date.');
 } else {
-  publishGit(['commit', '-m', 'Update Gatto Guitars feedback preview']);
+  publishGit(['commit', '-m', 'Update Gatto Custom Guitars website']);
   publishGit(['push', 'origin', 'HEAD:refs/heads/gh-pages']);
   console.log('Updated the GitHub Pages publishing branch.');
 }

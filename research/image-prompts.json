@@ -1,5 +1,5 @@
 {
-  "method": "built-in image_gen; exactly three calls, no variants or retries",
+  "method": "Built-in image_gen. Original three requests plus one walnut-grain texture; no variants or retries.",
   "assets": [
     {
       "key": "gatto_logo",
@@ -24,6 +24,17 @@
       "prompt": "Use case: photorealistic-natural.\nAsset type: high-resolution panoramic 16:9 editorial macro photograph for a premium boutique guitar website; ideally 2560 by 1440 pixels.\nPrimary request: a quiet tactile conceptual material study of figured dark golden guitar tonewood with a small natural knot, a few precise thin woodworking shavings, and only the edge of a steel hand plane visible at the far right.\nScene/backdrop: close surface study rather than a recognizable workshop; deep near-black shadows.\nComposition: long richly figured grain across the wide frame, small natural knot within the wood, fine curled shavings with believable thin edges, cropped steel plane at the far-right edge. Restrained, spacious editorial framing.\nLighting/mood: warm grazing light reveals undulating grain, satin wood fibers and accurate material texture; intimate, premium and quiet.\nColor palette: dark golden brown, warm copper, black deep shadows, subdued steel.\nStyle: photoreal editorial macro photography with optically plausible shallow depth of field and high tactile detail.\nConstraints: no person, no hands, no identifiable actual workshop, no text, no logo, no watermark, no finished guitar, no invented Gatto instrument. This is conceptual material imagery that will be labeled as a study. Avoid busy piles of tools and decorative clutter.",
       "saved_output": "dist/assets/tonewood-study.png",
       "site_asset": "dist/assets/tonewood-study.webp"
+    },
+    {
+      "key": "walnut_grain",
+      "prompt": "Use case: photorealistic-natural\nAsset type: premium custom guitar maker website background material texture.\nPrimary request: Create exactly one original seamless tileable square bitmap, ideally 2048 x 2048 pixels, of an uninterrupted walnut wood veneer surface.\nComposition/framing: Orthographic directly overhead macro material photograph; the entire square is solid walnut edge-to-edge. Understated predominantly straight horizontal grain with slight natural rippling. The top and bottom and left and right edges must match seamlessly for repeating as a background.\nLighting/mood: Uniform even neutral studio illumination, satin hand-rubbed finish, luxurious and restrained. No baked-in shadows, vignettes, hotspots, dramatic highlights, or gradients.\nColor palette: Rich chocolate brown and espresso with muted amber grain ribbons; low-to-medium contrast with discernible detailed grain suitable beneath dark website overlays.\nMaterials/textures: Fine realistic natural walnut pores, smooth premium furniture-grade wood veneer, subtle satin finish, refined material realism.\nConstraints: Only continuous walnut surface; no plank seams, joints, borders, objects, text, watermarks, screws, guitars, heavy knots, strong burl, distressed barn wood, cracks, scratches, or weathering. No extra images, variants, swatches, mockups, or collage.",
+      "source": "research/assets/walnut-grain.png",
+      "asset": "dist/assets/walnut-grain.webp",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "disposition": "Integrated as a decorative material background with contrast-preserving overlays."
     }
   ]
 }
