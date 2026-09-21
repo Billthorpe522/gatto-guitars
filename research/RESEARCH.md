@@ -28,7 +28,7 @@ Catalog notes preserve uncertainty and retailer typos; no unlisted scale, neck p
 - Campaign artwork: `dist/assets/gatto-campaign.png`, optimized to `dist/assets/gatto-campaign.webp`. Built-in image_gen, reference-based studio study, explicitly labeled AI-assisted in the site. Product galleries show original photos instead.
 - Material artwork: `dist/assets/tonewood-study.png`, optimized to `dist/assets/tonewood-study.webp`. Built-in image_gen, generated conceptual tonewood illustration, labeled as such. It is not claimed to be Frank's workshop or actual material stock.
 - Exact image prompts: `research/image-prompts.json`. Three requests were made. The logo generation was rejected for visible artifacts and was not integrated; a transcription of the real mark replaced it.
-- Fonts: DM Sans and Manrope, served locally.
+- Fonts: DM Sans and Manrope variable fonts from the official Google Fonts repository, served locally with their OFL licenses. The complete weight ranges support the bolder body text, headings, and labels.
 
 ## Useful next personal details
 
