@@ -1,10 +1,12 @@
-# Gatto Custom Guitars — private design study
+# Gatto Custom Guitars — design preview
 
-A private, static website exploring Frank Gatto's guitars and craft.
+A static website exploring Frank Gatto's guitars and craft, shared publicly for feedback.
 
-Private website address: https://gatto-guitars-study.evildroid.chatgpt.site (owner sign-in required).
+Public preview: https://billthorpe522.github.io/gatto-guitars/
 
-For a local preview, run `npm start`, then open http://127.0.0.1:4173. The server binds only to this computer's loopback interface. The source is maintained in a private GitHub repository; the hosted website uses owner-only access and has not been sent to Frank. It has no order form, payment system, analytics, or outbound messaging. Fonts and displayed images are local.
+Original private Sites address: https://gatto-guitars-study.evildroid.chatgpt.site (owner sign-in required).
+
+For a local preview, run `npm start`, then open http://127.0.0.1:4173. The server binds only to this computer's loopback interface. The GitHub repository and GitHub Pages preview are public. The original Sites address retains owner-only access. It has no order form, payment system, analytics, or outbound messaging. Fonts and displayed images are local.
 
 ## Contents
 
@@ -13,6 +15,10 @@ For a local preview, run `npm start`, then open http://127.0.0.1:4173. The serve
 - 305 original retailer images, plus Frank's band photo and original headstock-reference images.
 - 2 AI-assisted campaign/material assets. Actual instrument galleries remain original retailer photography.
 - Responsive navigation, image galleries, keyboard-accessible enlarged viewing, and per-page titles/descriptions.
+
+## Publishing
+
+GitHub Pages serves the `gh-pages` branch. After committing and pushing source changes to `main`, run `node scripts/publish-github-pages.mjs` to build, validate, and push the public website. The publisher uses the existing GitHub Git login and requires no workflow permission. `scripts/prepare-github-pages.mjs` creates the ignored `.github-pages/` output with project-prefixed links and fonts, leaving the root-based `dist/` output compatible with Sites and local previews. Website pages retain `noindex` metadata while this is a feedback preview.
 
 ## Working on it
 
@@ -24,4 +30,4 @@ For a local preview, run `npm start`, then open http://127.0.0.1:4173. The serve
 
 See `research/RESEARCH.md`, `research/catalog.json`, `research/image-prompts.json`, and the site's `/sources/` page. Records may include repeat sales; 37 records do not establish 37 distinct instruments. Archived asking prices are not sale prices. Stock is a dated retailer snapshot.
 
-The brand restoration is traced from a photograph, not original production artwork. The generated logo attempt was rejected because it had visual artifacts; the site uses the photographed mark instead. Photography reuse permissions remain unverified for a public launch. This does not affect the private concept requested here.
+The brand restoration is traced from a photograph, not original production artwork. The generated logo attempt was rejected because it had visual artifacts; the site uses the photographed mark instead. Photography reuse permissions remain unverified for a public launch. This is an unofficial feedback preview, not an authorized commercial launch.

@@ -36,7 +36,7 @@ Frank's favorite instruments/build stories, exact founding date, original logo a
 
 ## Privacy and status
 
-Private hosted website using Sites owner-only access, with an optional local preview and source backed up in a private GitHub repository. No public access or changes to the band's existing website. No analytics, newsletter, contact submissions, or ecommerce actions. This is an unofficial private study; Frank has not reviewed or approved it. Public reuse permissions for retailer/band photos have not been established.
+The user authorized a public GitHub repository and GitHub Pages feedback preview on September 21, 2026. The original Sites deployment retains owner-only access. No changes to the band's existing website. No analytics, newsletter, contact submissions, or ecommerce actions. This is an unofficial design study; Frank has not reviewed or approved it. Public reuse permissions for retailer/band photos have not been established.
 
 ## Verification
 

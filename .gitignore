@@ -7,3 +7,5 @@ node_modules/
 Thumbs.db
 research/logo-proof.png
 research/logo-vector-preview.png
+.codex-remote-attachments/
+.github-pages/
