@@ -11,6 +11,7 @@ await import('./prepare-github-pages.mjs');
 const output = path.resolve('.github-pages');
 const publishGit = args => git(args, output);
 publishGit(['init', '-b', 'gh-pages']);
+publishGit(['config', 'core.autocrlf', 'false']);
 publishGit(['config', 'user.name', name]);
 publishGit(['config', 'user.email', email]);
 publishGit(['remote', 'add', 'origin', origin]);

@@ -11,6 +11,7 @@ if (path.dirname(output) !== root || path.basename(output) !== '.github-pages') 
 }
 await fs.rm(output, { recursive: true, force: true });
 await fs.cp(path.resolve('dist'), output, { recursive: true });
+await fs.writeFile(path.join(output, '.nojekyll'), '');
 
 async function walk(dir) {
   const entries = await fs.readdir(dir, { withFileTypes: true });
