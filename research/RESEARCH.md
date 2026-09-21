@@ -16,6 +16,8 @@ Scanned all 54 product sitemaps listed at https://evolutionmusicstore.com/sitema
 
 Sold Reverb cross-reference: https://reverb.com/item/58295615-gatto-custom-guitars-tele-electric-guitar-trans-black . It overlaps by title and seller with the Evolution archive; no additional distinct build was counted. Search results for Hanson Gatto, John Gatto / Good Rats, and unrelated people were excluded. This is a comprehensive scan of the retailer's currently discoverable Gatto archive, not proof of every instrument ever listed anywhere.
 
+The user identified photos 1 and 3 of `gatto-tele-style-transparent-black` as unrelated items. The build excludes those two photos from every displayed card and gallery, keeping photo 2 as the lead and only image. Original source records remain in the research catalog; 303 of the 305 downloaded retailer images are displayed.
+
 Catalog notes preserve uncertainty and retailer typos; no unlisted scale, neck profile, pickup brand, or tone claim was invented. The Warmoth build is accurately called a partscaster. Seller locations are historical listing labels, not verified current store locations. The dealer page links the retailer's current website.
 
 ## Visual assets

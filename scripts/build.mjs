@@ -1,5 +1,11 @@
 import fs from 'node:fs/promises';
 const catalog=JSON.parse(await fs.readFile('research/catalog.json','utf8'));
+// The first and third retailer images show unrelated items, as confirmed by the user.
+const excludedPhotos=new Set([
+  '/assets/instruments/gatto-tele-style-transparent-black-1.jpg',
+  '/assets/instruments/gatto-tele-style-transparent-black-3.jpg'
+]);
+for(const p of catalog)p.localImages=p.localImages.filter(src=>!excludedPhotos.has(src));
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const text=s=>s.replace(/<[^>]*>/g,' ').replace(/&amp;/g,'&').replace(/&quot;/g,'"').replace(/&#39;|&apos;/g,"'").replace(/&nbsp;/g,' ').replace(/\s+/g,' ').trim();
 const money=n=>new Intl.NumberFormat('en-US',{style:'currency',currency:'USD'}).format(n);
