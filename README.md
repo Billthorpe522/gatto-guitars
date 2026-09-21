@@ -2,7 +2,9 @@
 
 A private, static website exploring Frank Gatto's guitars and craft.
 
-Run `npm start`, then open http://127.0.0.1:4173. The server binds only to this computer's loopback interface. The source is maintained in a private GitHub repository; the website has not been publicly deployed or sent to Frank. It has no order form, payment system, analytics, or outbound messaging. Fonts and displayed images are local.
+Private website address: https://gatto-guitars-study.evildroid.chatgpt.site (owner sign-in required).
+
+For a local preview, run `npm start`, then open http://127.0.0.1:4173. The server binds only to this computer's loopback interface. The source is maintained in a private GitHub repository; the hosted website uses owner-only access and has not been sent to Frank. It has no order form, payment system, analytics, or outbound messaging. Fonts and displayed images are local.
 
 ## Contents
 
