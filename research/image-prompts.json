@@ -1,0 +1,29 @@
+{
+  "method": "built-in image_gen; exactly three calls, no variants or retries",
+  "assets": [
+    {
+      "key": "gatto_logo",
+      "prompt": "Use case: background-extraction.\nAsset type: high-resolution horizontal transparent PNG logo for a boutique guitar website.\nPrimary request: accurately extract and reconstruct the actual Gatto logo from the supplied headstock photograph, rotate it into a perfectly horizontal reading orientation, and render it in pure white on a genuinely transparent background with preserved alpha.\nInput image 1 is the edit target and sole source of the authentic logo letter shapes: the black headstock decal reading “Gatto” with smaller uppercase “CUSTOM GUITARS” directly beneath.\nPreserve the distinctive broad oval-loop capital G, the slanted cursive connected lowercase a-t-t-o, the two tall crossed t letters, and the precise visual proportions and arrangement visible in the source. This is a faithful traced reconstruction, not a redesign. Use crisp smooth antialiased edges and enough resolution for premium website masthead use.\nText (verbatim): “Gatto” and “CUSTOM GUITARS”.\nConstraints: white lettering only; transparent pixels everywhere else. No wood, guitar, strings, hardware, photo background, shadow, glow, bounding box, checkerboard pattern, additional text, or invented typeface. The overall art is horizontal with a modest transparent margin; the small uppercase line sits beneath the rightward lowercase lettering exactly as in the authentic reference.",
+      "referenced_image_paths": [
+        "C:/Users/lucas/Documents/Codex/2026-09-20/frank-gatto-the-guitar-player-in/dist/assets/green-7.jpg"
+      ],
+      "disposition": "Rejected for artifacts; site uses vector transcription of actual headstock mark at dist/assets/gatto-logo.svg"
+    },
+    {
+      "key": "gatto_campaign",
+      "prompt": "Use case: lighting-weather.\nAsset type: high-resolution 16:9 premium guitar website campaign photograph, ideally 2560 by 1440 pixels.\nPrimary request: restage the exact same metallic candy emerald green S-style electric guitar shown in the supplied reference photographs into a dramatic studio campaign image. This will be labeled as an AI-assisted campaign study.\nInput image 1 is the body-detail edit target establishing exact finish and hardware. Input image 2 is a supporting full-instrument reference establishing silhouette, proportions, and neck.\nComposition: body large on the right 60 percent of the canvas, upright guitar with neck exiting the top edge. Maintain an elegant near-black empty left 40 percent for separate HTML typography. Black-charcoal seamless backdrop; premium black, ivory, and restrained copper-warm highlights; strong yet tasteful studio grazing light on the metallic emerald curves. Photorealistic product photography.\nPreserve the real instrument exactly: metallic candy emerald double-cutaway S-style body, ivory pickguard, three ivory EMG single-coil pickups with solid covers in the source configuration, three ivory knobs, blade selector, chrome six-saddle bridge and chrome tremolo arm with ivory tip, chrome oval jack plate, dark fingerboard, six strings, correct mounting screws and all original proportions. Keep the true finish color and original hardware placement. The green should read rich emerald, not teal or lime.\nNo text overlay, no extra objects, no person, no stand, no fabricated additional guitar features, no decorative props. Background and lighting may change; instrument identity and hardware layout must remain faithful to the photographs.",
+      "referenced_image_paths": [
+        "C:/Users/lucas/Documents/Codex/2026-09-20/frank-gatto-the-guitar-player-in/dist/assets/green-0.jpg",
+        "C:/Users/lucas/Documents/Codex/2026-09-20/frank-gatto-the-guitar-player-in/dist/assets/green-6.jpg"
+      ],
+      "saved_output": "dist/assets/gatto-campaign.png",
+      "site_asset": "dist/assets/gatto-campaign.webp"
+    },
+    {
+      "key": "tonewood_study",
+      "prompt": "Use case: photorealistic-natural.\nAsset type: high-resolution panoramic 16:9 editorial macro photograph for a premium boutique guitar website; ideally 2560 by 1440 pixels.\nPrimary request: a quiet tactile conceptual material study of figured dark golden guitar tonewood with a small natural knot, a few precise thin woodworking shavings, and only the edge of a steel hand plane visible at the far right.\nScene/backdrop: close surface study rather than a recognizable workshop; deep near-black shadows.\nComposition: long richly figured grain across the wide frame, small natural knot within the wood, fine curled shavings with believable thin edges, cropped steel plane at the far-right edge. Restrained, spacious editorial framing.\nLighting/mood: warm grazing light reveals undulating grain, satin wood fibers and accurate material texture; intimate, premium and quiet.\nColor palette: dark golden brown, warm copper, black deep shadows, subdued steel.\nStyle: photoreal editorial macro photography with optically plausible shallow depth of field and high tactile detail.\nConstraints: no person, no hands, no identifiable actual workshop, no text, no logo, no watermark, no finished guitar, no invented Gatto instrument. This is conceptual material imagery that will be labeled as a study. Avoid busy piles of tools and decorative clutter.",
+      "saved_output": "dist/assets/tonewood-study.png",
+      "site_asset": "dist/assets/tonewood-study.webp"
+    }
+  ]
+}
